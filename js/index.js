@@ -1,3 +1,17 @@
+function makeLink(element, container) {
+    var text_container = document.createElement("div");
+    text_container.setAttribute('class', 'text-container');
+    text_container.style.width = element['width']+'%';
+    text_container.style.cssText += element['custom_style'];
+    {
+        var link = document.createElement("h2");
+        link.setAttribute('src', 'text-title');
+        link.innerHTML = element['title'];
+        text_container.appendChild(title);
+    }
+    container.appendChild(text_container);
+}
+
 function importProject(path) {
     loadCSV(path).then(function(data) {
     var container = document.getElementById("project-container");
