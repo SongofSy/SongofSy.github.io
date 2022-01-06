@@ -140,4 +140,4 @@ function importProject(path) {
 }
 
 
-document.addEventListener("DOMContentLoaded", setupVid());
+//document.addEventListener("DOMContentLoaded", setupVid());
