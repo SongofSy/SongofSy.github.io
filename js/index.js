@@ -1,8 +1,8 @@
 function makeLink(element, container) {
     var text_container = document.createElement("div");
-    text_container.setAttribute('class', 'text-container');
-    text_container.style.width = element['width']+'%';
-    text_container.style.cssText += element['custom_style'];
+    link_container.setAttribute('class', 'link-container');
+    //link_container.style.width = element['width']+'%';
+    //link_container.style.cssText += element['custom_style'];
     {
         var link = document.createElement("a");
         link.src = element['url'];
@@ -26,7 +26,7 @@ function getAllIndexes(arr) {
 
 function importProject(path) {
     loadCSV(path).then(function(data) {
-    var container = document.getElementById("project-container");
+    var container = document.getElementById("links");
     var indexes = getAllIndexes(data);
     var numlines = indexes.length-1;
 
