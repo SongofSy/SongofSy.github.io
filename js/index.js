@@ -13,6 +13,17 @@ function makeLink(element, container) {
     container.appendChild(text_container);
 }
 
+function getAllIndexes(arr) {
+    var indexes = [-1];
+    for (l = 0; l < arr.length; l++) {
+        if (arr[l]['type'] == 'newline') {
+            indexes.push(l);
+        }
+    }
+    indexes.push(arr.length);
+    return indexes;
+}
+
 function importProject(path) {
     loadCSV(path).then(function(data) {
     var container = document.getElementById("project-container");
