@@ -29,7 +29,6 @@ function importProject(path) {
                 row_container.setAttribute('class', 'row');
                 type_selector(row[j], row_container);
             }
-        }
     }
 });
 }
