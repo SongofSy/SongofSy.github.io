@@ -10,7 +10,7 @@ function makeLink(element, container) {
         link.setAttribute('class', 'hyperlink');
         link_container.appendChild(link);
     }
-    container.appendChild(text_container);
+    container.appendChild(link_container);
 }
 
 function getAllIndexes(arr) {
