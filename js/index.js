@@ -1,5 +1,5 @@
 function makeLink(element, container) {
-    var text_container = document.createElement("div");
+    var link_container = document.createElement("div");
     link_container.setAttribute('class', 'link-container');
     //link_container.style.width = element['width']+'%';
     //link_container.style.cssText += element['custom_style'];
