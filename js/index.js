@@ -4,10 +4,11 @@ function makeLink(element, container) {
     text_container.style.width = element['width']+'%';
     text_container.style.cssText += element['custom_style'];
     {
-        var link = document.createElement("h2");
-        link.setAttribute('src', 'text-title');
+        var link = document.createElement("a");
+        link.src = element['url'];
         link.innerHTML = element['title'];
-        text_container.appendChild(title);
+        link.setAttribute('class', 'hyperlink');
+        text_container.appendChild(link);
     }
     container.appendChild(text_container);
 }
