@@ -8,7 +8,7 @@ function makeLink(element, container) {
         link.src = element['url'];
         link.innerHTML = element['title'];
         link.setAttribute('class', 'hyperlink');
-        text_container.appendChild(link);
+        link_container.appendChild(link);
     }
     container.appendChild(text_container);
 }
