@@ -38,7 +38,7 @@ function importProject(path) {
         container.appendChild(row_container);
         for (j=0; j<row.length; j++) {
                 row_container.setAttribute('class', 'row');
-                type_selector(row[j], row_container);
+                makeLink(row[j], row_container);
             }
     }
 });
