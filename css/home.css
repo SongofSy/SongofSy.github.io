@@ -34,14 +34,17 @@ button:hover {
 	/*position: relative;*/
 	width: auto;
 	display: grid;
- 	padding: 60px;
-	grid-template-columns: auto auto;
+ 	padding: 20%;
+	grid-template-columns: 40% 40%;
 }
 
 
-.#image {
-	width: 50vw;
+#image {
 	grid-column-start: 1;
+}
+
+.profile_img {
+	width: 40vw;
 }
 
 #links {
