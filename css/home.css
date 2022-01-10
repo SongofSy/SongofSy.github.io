@@ -53,6 +53,10 @@ button:hover {
 	font: 30px;
 }
 
+.link-container {
+	padding-top: 10px;
+}
+
 
 @media screen and (max-width: 500px) {
 	.page-ref {
