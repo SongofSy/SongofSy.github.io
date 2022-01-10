@@ -50,6 +50,7 @@ button:hover {
 #links {
 	width: 40vw;
 	grid-column-start: 2;
+	font: 30px;
 }
 
 
