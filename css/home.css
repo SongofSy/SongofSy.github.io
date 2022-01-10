@@ -29,20 +29,24 @@ button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 
-.page-ref {
+#content {
 	margin: 0;
 	/*position: relative;*/
 	width: auto;
 	display: grid;
  	padding: 60px;
- 	grid-template-rows: 5% 40% 40% 1fr;
-  	grid-template-columns: 10% 1fr 40%;
+	grid-template-columns: auto auto;
 }
 
 
-.profile_img {
+.#image {
 	width: 50vw;
-	grid-row-start: 1;
+	grid-column-start: 1;
+}
+
+#links {
+	width: 40vw;
+	grid-column-start: 2;
 }
 
 
