@@ -19,15 +19,18 @@ html, body {
   	background-size: cover;
 }
 
-#title h2 {
+#title {
 	font-size: 3vw;
-	font-family: silverblade; 
-	font-weight: bold; 
-	color: rgba(200,200,200,1);
 	display: block;
+	font-weight: bold; 
 	margin: auto;
 	text-align: center;
 	padding: 20px 40px;
+}
+
+#title h2 {
+	font-family: silverblade; 
+	color: rgba(200,200,200,1);
 }
 
 button {
