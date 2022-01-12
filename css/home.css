@@ -12,6 +12,9 @@ html, body {
 
 #title {
 	font-size: 3vw;
+	font-family: silverblade; 
+	font-weight: bold; 
+	color: rgba(200,200,200,1);
 	display: block;
 	margin: auto;
 	text-align: center;
