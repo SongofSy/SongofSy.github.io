@@ -39,6 +39,9 @@ html, body {
 
 #contact {
 	text-align: center;
+	color: white;
+	font-size: 4vw;
+	font-weight:bold;
 }
 
 button {
