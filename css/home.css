@@ -61,8 +61,13 @@ button:hover {
 	font-size: 4vw;
 }
 
+
 .link-container {
 	padding-top: 20px;
+}
+
+.link-container a {
+	color: white;
 }
 
 
