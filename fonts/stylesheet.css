@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'silverbladeregular';
-    src: url('silverblade-webfont.woff2') format('woff2'),
-         url('silverblade-webfont.woff') format('woff');
+    src: url('http://songofsy.github.io/fonts/silverblade-webfont.woff2') format('woff2'),
+         url('http://songofsy.github.io/fonts/silverblade-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
