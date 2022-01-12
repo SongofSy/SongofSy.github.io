@@ -22,22 +22,21 @@
 	text-align: center; 
 	display: inline-block; 
 	padding-top: 20px;
-  z-index: 1005;
-  position: absolute;
+  	z-index: 1005;
+  	position: absolute;
 }
 
 .title a {
 	font-family: silverblade; 
-	font-size: 2.3rem; 
+	font-size: 3rem; 
 	font-weight: bold; 
-	color: #000000; 
+	color: rgba(200,200,200,1);
 	text-decoration: none;
 	padding: 14px 16px;
 }
 
 .title a:hover {
-	background-color: #ddd;
-	color: black;	
+	color: white;
 }
 
 .nav-bar {
