@@ -19,7 +19,7 @@ html, body {
   	background-size: cover;
 }
 
-#title {
+#title h2 {
 	font-size: 3vw;
 	font-family: silverblade; 
 	font-weight: bold; 
