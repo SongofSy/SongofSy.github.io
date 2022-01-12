@@ -1,10 +1,13 @@
 body {
 	font-family: Georgia, serif;
+	color: white;
 }
 
 html, body {
-	height: 100%;
 	margin: 0;
+	height: 100%
+	background-image: linear-gradient(rgba( 0, 100, 102 ,1),rgba(62, 31, 71, 1));
+	background-attachment: fixed;
 }
 
 #title {
