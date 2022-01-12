@@ -5,7 +5,7 @@ function makeLink(element, container) {
     //link_container.style.cssText += element['custom_style'];
     {
         var link = document.createElement("a");
-        link.src = element['url'];
+        link.href = element['url'];
         link.innerHTML = element['title'];
         link.setAttribute('class', 'hyperlink');
         link_container.appendChild(link);
