@@ -1,3 +1,5 @@
+@font-face { font-family: silverblade; src: url('https://songofsy.github.io/fonts/Silverblade.ttf'); }
+
 #footer {
 	height: 70px;
 	margin: 0;
@@ -20,10 +22,10 @@
 	float: left;
 	padding-left: 20px;
 	padding-bottom: 10px;
-	font-family: Helvetica; 
-	font-size: 2.3em; 
+	font-family: silverblade; 
+	font-size: 3rem; 
 	font-weight: bold; 
-	color: #000000;
+	color: rgba(200,200,200,1);
 }
 
 .foot-socialicons-bar {
